@@ -1,11 +1,7 @@
 // import { useState, useEffect } from "react";
 import { useEffect, lazy } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { fetchContacts } from "redux/contacts/operations";
-import  ContactForm  from "./ContactForm/ContactForm";
-import { ContactList } from "./Contacts/ContactList";
-import { Filter } from "./Filter/Filter";
-import { getIsLoading, getError } from 'redux/contacts/selectors';
+import { useDispatch} from "react-redux";
+
 import { refreshUser } from "redux/auth/operations";
 import { useAuth } from "hooks/useAuth";
 import { Route, Routes } from "react-router-dom";
