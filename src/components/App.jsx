@@ -8,7 +8,7 @@ import { Route, Routes } from "react-router-dom";
 import { Layout } from "./Layout";
 import { RestrictedRoute } from "./RestrictedRoute";
 import { PrivateRoute } from "./PrivateRoute";
-// import { nanoid } from 'nanoid';
+
 
 const HomePage = lazy(() => import('../pages/Home'));
 const RegisterPage = lazy(() => import('../pages/Register'));
@@ -43,18 +43,7 @@ export  function App() {
           />
         </Route>
       </Routes>
-    // <div
-    //   style={{
-    //     // height: '100vh',
-    //     display: 'flex',
-    //     justifyContent: 'center',
-    //     flexDirection: 'column',
-    //     alignItems: 'center',
-    //     fontSize: 24,
-    //     color: '#010101',
-    //     backgroundColor: 'azure',
-    //   }}
-    //   >
+ 
         
    
   );
