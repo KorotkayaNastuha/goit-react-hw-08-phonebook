@@ -39,7 +39,7 @@ export default function Home() {
           display:'flex',
           width: '580px',
           height: '180px',
-          m: '200px auto ',
+          m: '300px auto ',
         },
       }}
     >
