@@ -40,19 +40,21 @@ export default function Home() {
           width: '580px',
           height: '180px',
           m: '300px auto ',
+          backgroundColor: '#1976d2',
         },
       }}
     >
       <ThemeProvider theme={theme}>
         <Chip icon={<ContactPhoneTwoToneIcon
           sx={{
-        fontSize: 180,
+            fontSize: 180,
           }}
         />
         }
           label="Phonebook" fontSize="large" 
            sx={{
-        fontSize: 60,
+             fontSize: 60,
+             color:'white',
           }}
         />
       </ThemeProvider>
