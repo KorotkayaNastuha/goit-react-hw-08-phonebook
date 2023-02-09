@@ -19,7 +19,7 @@ export const RegisterForm = () => {
         form.reset();
     };
     return (
-        <Box sx={{ width: '280px', mt: 4}}>
+        <Box sx={{ width: '280px',  m: '20px  auto 0'}}>
             <form autoComplete="off" onSubmit={handleSubmit}
             
             >
@@ -32,10 +32,6 @@ export const RegisterForm = () => {
           name="name"
           type="text"
           label="Name"
-        //   value={dispatch.name}
-        //   onChange={handleChange}
-        //   error={touched.name && Boolean(errors.name)}
-        //   helperText={touched.name && formik.errors.name}
         />
         <TextField
           fullWidth
@@ -47,9 +43,6 @@ export const RegisterForm = () => {
           type="email"
           label="Email"
           value={dispatch.email}
-        //   onChange={handleChange}
-        //   error={formik.touched.email && Boolean(formik.errors.email)}
-        //   helperText={formik.touched.email && formik.errors.email}
         />
         <TextField
           fullWidth
@@ -61,9 +54,6 @@ export const RegisterForm = () => {
           type="password"
           label="Password"
           value={dispatch.password}
-        //   onChange={handleChange}
-        //   error={formik.touched.password && Boolean(formik.errors.password)}
-        //   helperText={formik.touched.password && formik.errors.password}
         />
         <Button
           variant="contained"

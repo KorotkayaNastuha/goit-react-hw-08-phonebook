@@ -18,7 +18,7 @@ export const LoginForm = () => {
     };
     return (
 
-        <Box sx={{ width: '280px', mt: 4}}>
+        <Box sx={{ width: '280px', m: '20px  auto 0'}}>
       <form autoComplete="off" onSubmit={handleSubmit}>
         <TextField
           fullWidth
@@ -30,9 +30,6 @@ export const LoginForm = () => {
           type="email"
           label="Email"
           value={dispatch.email}
-        //   onChange={formik.handleChange}
-        //   error={formik.touched.email && Boolean(formik.errors.email)}
-        //   helperText={formik.touched.email && formik.errors.email}
         />
         <TextField
           fullWidth
@@ -44,14 +41,11 @@ export const LoginForm = () => {
           type="password"
           label="Password"
           value={dispatch.password}
-        //   onChange={formik.handleChange}
-        //   error={formik.touched.password && Boolean(formik.errors.password)}
-        //   helperText={formik.touched.password && formik.errors.password}
         />
         <Button
           variant="contained"
           type="submit"
-          size="large"
+          size="small"
           sx={{ width: '50%', marginLeft: '25%' }}
         >
           Log In
